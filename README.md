@@ -1,5 +1,5 @@
-# ⛈️ Desafio DIO: NFT de Pokémon com Blockchain
-
+<!-- Projeto Finalizado -->
+# 🏦 Desafio DIO: NFT Pokémon
 <p align="center">
   <!-- Contador de linguagens do GitHub -->
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/devAndreotti/dio-poke-battle?color=FFF&labelColor=8c8676&style=flat-square">
@@ -23,24 +23,24 @@ Este projeto cria e gerencia NFTs de Pokémon utilizando tecnologia blockchain. 
 - **[MetaMask](https://metamask.io/)**: Carteira de criptomoedas para interagir com a blockchain e contratos inteligentes.
 - **[IPFS](https://ipfs.io/)**: Sistema de arquivos distribuído para armazenar e compartilhar dados, como imagens dos Pokémons.
 
+## 📜 Contrato PokeDIO
+- **Nome do Token**: `PokeDIO`
+- **Símbolo do Token**: `PKD`
+
 ## 🔍 Funcionalidades
 - **Criação de NFTs**: Cria novos Pokémons como NFTs utilizando a função `createNewPokemon`.
 - **Batalhas entre Pokémons**: Permite batalhas entre Pokémons com cooldown utilizando a função `battle`.
 - **Evolução de Pokémons**: Evolui um Pokémon quando atinge um nível específico com a função `evolvePokemon`.
 - **Transferência de NFTs**: Habilita a transferência de NFTs entre diferentes contas.
 
-## 📜 Contrato PokeDIO
-- **Nome do Token**: `PokeDIO`
-- **Símbolo do Token**: `PKD`
-
-## 📋 Guia de Implementação
+## 📕 Guia de Implementação
 1. **Configuração do Ambiente**
-   - **Ganache**: Crie uma rede local Ethereum para testar o contrato.
-   - **MetaMask**: Conecte-se à rede do Ganache para interagir com a blockchain.
+   - **Ganache**: Crie uma rede local Ethereum.
+   - **MetaMask**: Conecte-se à rede do Ganache.
    - **Remix IDE**: Acesse [remix.ethereum](https://remix.ethereum.org) para compilar e implantar o contrato.
 
 2. **Implementação do Contrato**
-   - Insira e compile o contrato `PokeDIO` no Remix IDE.
+   - Insira e compile o contrato `DioPoke.sol` no Remix IDE.
    - Teste as funcionalidades como criação de Pokémons, batalhas e evolução.
    - Conecte o MetaMask à blockchain local para realizar transações.
 
