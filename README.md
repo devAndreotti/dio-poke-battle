@@ -33,13 +33,6 @@ Este projeto cria e gerencia NFTs de Pokémon utilizando tecnologia blockchain. 
 - **Nome do Token**: `PokeDIO`
 - **Símbolo do Token**: `PKD`
 
-### Estrutura do Contrato
-O contrato `PokeDIO` é baseado no padrão ERC-721 da OpenZeppelin e inclui:
-- **Estrutura `Pokemon`**: Armazena o nome, nível e imagem do Pokémon.
-- **Função `createNewPokemon`**: Cria um novo Pokémon e minta um token ERC-721 para ele.
-- **Função `battle`**: Realiza batalhas entre Pokémons com cooldown para evitar batalhas consecutivas.
-- **Função `evolvePokemon`**: Permite a evolução de um Pokémon quando atinge o nível necessário.
-
 ## 📋 Guia de Implementação
 1. **Configuração do Ambiente**
    - **Ganache**: Crie uma rede local Ethereum para testar o contrato.
@@ -63,4 +56,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou fazer 
 5. Abra um Pull Request.
 
 ## 📝 Nota
-Este projeto é para fins educacionais, feito para o desafio da **DIO**. Sinta-se livre para explorar e adaptar.
+Este projeto é para fins educacionais, feito para o desafio da **DIO** em parceria com a **Binance**. Sinta-se livre para explorar e adaptar.
